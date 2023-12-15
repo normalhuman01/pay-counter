@@ -1,0 +1,118 @@
+.root{
+    -fx-background-color:  #1D1D1D;
+}
+
+.segoe-white-font{
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: Segoe UI Semibold;
+}
+
+/* -------------------- MENU BAR -------------------- */
+.menu-bar{
+    -fx-background-color: derive(#1d1d1d,20%);
+    -fx-border-color: transparent transparent #FFFFFF transparent;
+    -fx-border-width: 2px;
+}
+
+.menu-bar .label {
+    -fx-font-size: 16px;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: white;
+    -fx-opacity: 0.9;
+}
+
+.menu:hover{
+    
+    -fx-background-color: #4E4A4A;
+}
+
+.menu-item{
+    -fx-text-fill: white;
+    -fx-background-color: #2B2A2A;
+    -fx-border-color: transparent;
+}
+
+.menu-item .label{
+    -fx-font-size: 13px;
+}
+
+.menu-item:hover{
+    -fx-background-color: #4E4A4A;
+}
+
+.label{
+    -fx-font-size: 15px;
+}
+
+.textfield{
+    -fx-font-size: 15px;
+    -fx-border-color: transparent transparent #FFFFFF transparent;
+    -fx-background-color: transparent;
+}
+
+/* -------------------- COMBO BOX-------------------- */
+.combo-box{
+    -fx-font-size: 14px;
+    -fx-background-color: #1E1E1E;
+    -fx-border-color: white;
+    -fx-prompt-text-fill: white;
+}
+
+.combo-box .list-cell{
+    -fx-background-color: #1E1E1E;
+    -fx-text-fill: white;
+}
+
+/* -------------------- LIST VIEW -------------------- */
+.list-view .cell.indexed-cell.list-cell{
+    -fx-background-color: #1D1D1D;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+}
+
+/* -------------------- TABLE VIEW -------------------- */
+.table-view {
+    -fx-base: #1d1d1d;
+    -fx-control-inner-background: #1d1d1d;
+    -fx-background-color: #1d1d1d;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+    -fx-padding: 5;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-size: 35;
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: transparent;
+    -fx-border-color: 
+        transparent
+        transparent
+        derive(-fx-base, 80%) 
+        transparent;
+    -fx-border-insets: 0 10 1 0;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 13pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: white;
+    -fx-alignment: center-left;
+    -fx-opacity: 1;
+}
+
+/* -------------------- BUTTON -------------------- */
+.button{
+    -fx-font-size: 16px;
+    -fx-font-width: 3px;
+    -fx-background-color: #2B2A2A;
+    -fx-background-radius: 0px;
+}
+
+.button:hover{
+    -fx-background-color: #4E4A4A;
+}
+

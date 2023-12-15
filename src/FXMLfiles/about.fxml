@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="226.0" prefWidth="287.0" styleClass="root" stylesheets="@../css/theme.css" xmlns="http://javafx.com/javafx/8.0.221" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AboutController">
+   <center>
+      <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-border-color: white white white white; -fx-border-style: dotted; -fx-border-width: 2px;" text="Desarrollado por Eduardo Lanasca&#10;con aportes de Kochi&#10;Estudiantes de la UNMSM&#10;- No es mucho pero es trabajo honesto -&#10;17/08/2019 &#10;v1.0" textAlignment="CENTER" BorderPane.alignment="CENTER">
+         <styleClass>
+            <String fx:value="label" />
+            <String fx:value="segoe-white-font" />
+         </styleClass>
+      </Label>
+   </center>
+   <bottom>
+      <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#OKbutton" prefHeight="56.0" prefWidth="287.0" style="-fx-border-color: transparent;" text="Aceptar" BorderPane.alignment="CENTER">
+         <styleClass>
+            <String fx:value="button" />
+            <String fx:value="segoe-white-font" />
+         </styleClass>
+      </Button>
+   </bottom>
+</BorderPane>
